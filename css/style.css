@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+.vraag {
+  width: 100%;
+  background-color: #6f4989;
+  color: #black;
+  padding: 1em;
+  cursor: pointer;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 1em;
+  transition: 0.5s;
+}
+
+.open, .vraag:hover {
+  background-color: #8759a6;
+}
+
+.antwoord {
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 1em;
+  transition: max-height 0.2s ease-out;
+}
